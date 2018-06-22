@@ -32,4 +32,4 @@ rails generate migration add_password_digest_to_users password_digest:string
 
 redirect_to @user #---------------------------redirect to the current user
 flash[:success] = "Welcome to the Sample App!" # flash messahe
-jjj
+
