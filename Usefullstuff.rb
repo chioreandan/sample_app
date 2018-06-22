@@ -1,4 +1,4 @@
-rails console --sandbox #to start rails console that rollbacks on exit
+  rails console --sandbox #to start rails console that rollbacks on exit
 
 
 User.all #returns all users
@@ -28,3 +28,8 @@ $ rails generate migration add_index_to_users_email
 
 
 rails generate migration add_password_digest_to_users password_digest:string
+
+
+redirect_to @user #---------------------------redirect to the current user
+flash[:success] = "Welcome to the Sample App!" # flash messahe
+jjj
